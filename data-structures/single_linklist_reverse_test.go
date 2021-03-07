@@ -30,6 +30,9 @@ func reverseList(head *ListNode) *ListNode {
 	return prev
 }
 
+/**
+* recursion 递归思维解决子问题，往上解决反转
+*/
 func reverseList1(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil{
 		return head
